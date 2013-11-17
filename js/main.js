@@ -37,7 +37,7 @@ $(document).ready(function() {
     // Init
     wavesurfer.init(options);
     // Load audio from URL
-    wavesurfer.load('example/media/beep2_angels.wav');
+    wavesurfer.load('media/beep2_angels.wav');
 
     // Start listening to drag'n'drop on document
     wavesurfer.bindDragNDrop('#drop');
